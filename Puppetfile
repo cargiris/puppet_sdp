@@ -9,11 +9,14 @@ mod "puppetlabs/apache"
 mod "puppetlabs/mysql"
 
 # Modules from Git
-# Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
-#mod 'apache',
-#  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
+mod 'git_version',
+  :git    => 'https://github.com/cargiris/git_version.git',
+  :branch => 'development'
 
-#mod 'apache',
-#  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :branch => 'docs_experiment'
+mod 'profile',
+  :git    => 'https://github.com/cargiris/profile_sdp.git',
+  :branch => 'development'
+
+mod 'role',
+  :git    => 'https://github.com/cargiris/role_sdp.git',
+  :branch => 'development'
