@@ -30,3 +30,5 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+hiera_include('classes')
