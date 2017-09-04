@@ -31,4 +31,4 @@ node default {
   #   class { 'my_class': }
 }
 
-hiera_include('classes')
+lookup('classes', Array[String], 'unique').include
