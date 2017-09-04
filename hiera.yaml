@@ -6,6 +6,10 @@ defaults:  # Used for any hierarchy level that omits these keys.
   datadir: data  # This path is relative to the environment -- development/data
   data_hash: yaml_data  # Use the built-in YAML backend.
 
+backends:
+  - eyaml
+  - yaml
+
 hierarchy:
   - name: "Per-node data"                   # Human-readable name.
     path: "nodes/%{trusted.certname}.yaml"  # File path, relative to datadir.
