@@ -7,3 +7,40 @@
     user.name: 'Costa Argiris'
     user.email: 'co.argiris@gmail.com'
     core.editor: 'vim'
+
+  profile::apache::vhosts:
+    example0.nix_sdp:
+      port: 80
+      docroot: /var/www/example0.nix_sdp
+      options:
+        - Indexes
+        - FollowSymLinks
+        - MultiViews
+    example1.nix_sdp:
+      port: 81
+      docroot: /var/www/example1.nix_sdp
+      options:
+        - Indexes
+        - FollowSymLinks
+        - MultiViews
+    example2.nix_sdp:
+      port: 82
+      docroot: /var/www/example2.nix_sdp
+      options:
+        - Indexes
+        - FollowSymLinks
+        - MultiViews
+    example3.nix_sdp:
+      port: 83
+      docroot: /var/www/example3.nix_sdp
+      options:
+        - Indexes
+        - FollowSymLinks
+        - MultiViews
+    example4.nix_sdp:
+      port: 84
+      docroot: /var/www/example4.nix_sdp
+      options:
+        - Indexes
+        - FollowSymLinks
+        - MultiViews
