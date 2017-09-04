@@ -44,3 +44,35 @@
         - Indexes
         - FollowSymLinks
         - MultiViews
+  
+  profile::mysql::mysql_dbs:
+    mydb_0:
+      user: test
+      host: localhost
+      grant:
+        - SELECT
+        - UPDATE
+    mydb_1:
+      user: test
+      host: localhost
+      grant:
+        - SELECT
+        - UPDATE
+    mydb_2:
+      user: test
+      host: localhost
+      grant:
+        - SELECT
+        - UPDATE
+    mydb_3:
+      user: test
+      host: localhost
+      grant:
+        - SELECT
+        - UPDATE
+    mydb_4:
+      user: test
+      host: localhost
+      grant:
+        - SELECT
+        - UPDATE

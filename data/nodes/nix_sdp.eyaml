@@ -1,0 +1,57 @@
+---
+  profile::mysql::mysql_dbs:
+    mydb_0:
+      password: >
+        ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+        DQYJKoZIhvcNAQEBBQAEggEAn7ve4fuTLnrAo3nn6UlGp7eO9wWFvhSMekz2
+        5fSVrD2oKACSdgb8g8+XK4lJ6V9vi8sjPAZ1N02Nx6XEbXyxA0Ed0oPu798v
+        a8n/P/pmkvwarXgNF+bCa+9nBjUkPUKM//BkiVZ/5/QrHXcL8OVujtKfBRkc
+        YtV2jnCZiEowGuwtl1cYa9o7pPphnioJXzBNOvvf5O0CBquTnUOqLxZab1Bk
+        yXvUi2RaNPAp064F6YYUdv8oqflGG5KZdJt0ApYSk3jZLZwE6j6rLbQjXx+9
+        MhoHC+S7W83221p2tPqLMCTGJQFHScWSnbAV2OS0VwWyMLGu9ey65k98PH3U
+        tEaEbDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBDMtu+NZhgtgSxxoyJk
+        2rmNgBCafbPZDUs+edDkCLWSblBU]
+    mydb_1:
+      password: >
+        ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+        DQYJKoZIhvcNAQEBBQAEggEAn7ve4fuTLnrAo3nn6UlGp7eO9wWFvhSMekz2
+        5fSVrD2oKACSdgb8g8+XK4lJ6V9vi8sjPAZ1N02Nx6XEbXyxA0Ed0oPu798v
+        a8n/P/pmkvwarXgNF+bCa+9nBjUkPUKM//BkiVZ/5/QrHXcL8OVujtKfBRkc
+        YtV2jnCZiEowGuwtl1cYa9o7pPphnioJXzBNOvvf5O0CBquTnUOqLxZab1Bk
+        yXvUi2RaNPAp064F6YYUdv8oqflGG5KZdJt0ApYSk3jZLZwE6j6rLbQjXx+9
+        MhoHC+S7W83221p2tPqLMCTGJQFHScWSnbAV2OS0VwWyMLGu9ey65k98PH3U
+        tEaEbDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBDMtu+NZhgtgSxxoyJk
+        2rmNgBCafbPZDUs+edDkCLWSblBU]
+    mydb_2:
+      password: >
+        ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+        DQYJKoZIhvcNAQEBBQAEggEAn7ve4fuTLnrAo3nn6UlGp7eO9wWFvhSMekz2
+        5fSVrD2oKACSdgb8g8+XK4lJ6V9vi8sjPAZ1N02Nx6XEbXyxA0Ed0oPu798v
+        a8n/P/pmkvwarXgNF+bCa+9nBjUkPUKM//BkiVZ/5/QrHXcL8OVujtKfBRkc
+        YtV2jnCZiEowGuwtl1cYa9o7pPphnioJXzBNOvvf5O0CBquTnUOqLxZab1Bk
+        yXvUi2RaNPAp064F6YYUdv8oqflGG5KZdJt0ApYSk3jZLZwE6j6rLbQjXx+9
+        MhoHC+S7W83221p2tPqLMCTGJQFHScWSnbAV2OS0VwWyMLGu9ey65k98PH3U
+        tEaEbDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBDMtu+NZhgtgSxxoyJk
+        2rmNgBCafbPZDUs+edDkCLWSblBU]
+    mydb_3:
+      password: >
+        ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+        DQYJKoZIhvcNAQEBBQAEggEAn7ve4fuTLnrAo3nn6UlGp7eO9wWFvhSMekz2
+        5fSVrD2oKACSdgb8g8+XK4lJ6V9vi8sjPAZ1N02Nx6XEbXyxA0Ed0oPu798v
+        a8n/P/pmkvwarXgNF+bCa+9nBjUkPUKM//BkiVZ/5/QrHXcL8OVujtKfBRkc
+        YtV2jnCZiEowGuwtl1cYa9o7pPphnioJXzBNOvvf5O0CBquTnUOqLxZab1Bk
+        yXvUi2RaNPAp064F6YYUdv8oqflGG5KZdJt0ApYSk3jZLZwE6j6rLbQjXx+9
+        MhoHC+S7W83221p2tPqLMCTGJQFHScWSnbAV2OS0VwWyMLGu9ey65k98PH3U
+        tEaEbDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBDMtu+NZhgtgSxxoyJk
+        2rmNgBCafbPZDUs+edDkCLWSblBU]
+    mydb_4:
+      password: >
+        ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+        DQYJKoZIhvcNAQEBBQAEggEAn7ve4fuTLnrAo3nn6UlGp7eO9wWFvhSMekz2
+        5fSVrD2oKACSdgb8g8+XK4lJ6V9vi8sjPAZ1N02Nx6XEbXyxA0Ed0oPu798v
+        a8n/P/pmkvwarXgNF+bCa+9nBjUkPUKM//BkiVZ/5/QrHXcL8OVujtKfBRkc
+        YtV2jnCZiEowGuwtl1cYa9o7pPphnioJXzBNOvvf5O0CBquTnUOqLxZab1Bk
+        yXvUi2RaNPAp064F6YYUdv8oqflGG5KZdJt0ApYSk3jZLZwE6j6rLbQjXx+9
+        MhoHC+S7W83221p2tPqLMCTGJQFHScWSnbAV2OS0VwWyMLGu9ey65k98PH3U
+        tEaEbDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBDMtu+NZhgtgSxxoyJk
+        2rmNgBCafbPZDUs+edDkCLWSblBU]
