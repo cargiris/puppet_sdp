@@ -5,11 +5,16 @@ version: 5
 defaults:  # Used for any hierarchy level that omits these keys.
   datadir: data  # This path is relative to the environment -- development/data
   data_hash: yaml_data  # Use the built-in YAML backend.
-  options:
-    pkcs7_private_key: /etc/puppetlabs/puppet/eyaml/private_key.pkcs7.pem
-    pkcs7_public_key: /etc/puppetlabs/puppet/eyaml/public_key.pkcs7.pem
+    
 
 hierarchy:
+  - name: "Per-node secret data"
+    lookup_key: eyaml_lookup_key # eyaml backend
+    path: "nodes/%{trusted.certname}.eyaml"
+    options:
+      pkcs7_private_key: /etc/puppetlabs/puppet/eyaml/private_key.pkcs7.pem
+      pkcs7_public_key: /etc/puppetlabs/puppet/eyaml/public_key.pkcs7.pem
+
   - name: "Per-node data"                   # Human-readable name.
     path: "nodes/%{trusted.certname}.yaml"  # File path, relative to datadir.
                                    # ^^^ IMPORTANT: include the file extension!
