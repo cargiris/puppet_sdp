@@ -15,9 +15,9 @@ mod 'git_version',
   :branch => 'production'
 
 mod 'profile',
-  :git    => 'https://github.com/cargiris/profile_sdp.git',
+  :git    => 'https://github.com/cargiris1/profile_sdp.git',
   :branch => 'production'
 
 mod 'role',
-  :git    => 'https://github.com/cargiris/role_sdp.git',
+  :git    => 'https://github.com/cargiris1/role_sdp.git',
   :branch => 'production'
