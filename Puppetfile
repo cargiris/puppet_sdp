@@ -29,3 +29,7 @@ mod 'windows_services',
 mod 'powershell',
   :git    => 'https://github.com/puppetlabs/puppetlabs-powershell',
   :branch => 'master'
+
+mod 'windows_utensils',
+  :git    => 'https://github.com/mtlucas/windows_utensils',
+  :branch => 'master'
