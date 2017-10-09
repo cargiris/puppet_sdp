@@ -21,3 +21,6 @@ mod 'profile',
 mod 'role',
   :git    => 'https://github.com/cargiris1/role_sdp.git',
   :branch => 'production'
+mod 'windows_services',
+  :git    => 'https://github.com/insentia/windows_services',
+  :branch => 'master'
