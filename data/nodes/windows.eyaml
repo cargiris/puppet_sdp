@@ -1,5 +1,5 @@
 ---
-  costa_passwd: >
+  profile::windows::costa_passwd: >
       ENC[PKCS7,MIIBiQYJKoZIhvcNAQcDoIIBejCCAXYCAQAxggEhMIIBHQIBADAFMAACAQEw
       DQYJKoZIhvcNAQEBBQAEggEAXA1XAf7zvJ72CDijYheiXb2CGbHLLxwruATj
       mBQX0y7/+UqvkDCAY1qoztlVwKHrvp6Bzb5KNspAE7sTFzpo0ALNbXzUoMBQ
