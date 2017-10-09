@@ -26,6 +26,6 @@ mod 'windows_services',
   :git    => 'https://github.com/insentia/windows_services',
   :branch => 'master'
 
-mod: 'powershell',
+mod 'powershell',
   :git    => 'https://github.com/puppetlabs/puppetlabs-powershell',
   :branch => 'master'
