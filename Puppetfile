@@ -58,6 +58,6 @@ mod 'reboot',
   :git    => 'https://github.com/puppetlabs/puppetlabs-reboot',
   :branch => 'master'
 
-mod 'staging'
+mod 'staging',
   :git    => 'https://github.com/voxpupuli/puppet-staging',
   :branch => 'master'
