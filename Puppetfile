@@ -26,10 +26,38 @@ mod 'acl',
   :git    => 'https://github.com/puppetlabs/puppetlabs-acl',
   :branch => 'master'
 
+mod 'registry',
+  :git    => 'http://links.puppet.com/registry-module',
+  :branch => 'master'
+
+mod 'windowsfeature',
+  :git    => 'https://github.com/voxpupuli/puppet-windowsfeature',
+  :brancg => 'master'
+
+mod 'iis',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-iis',
+  :branch => 'master'
+
 mod 'powershell',
   :git    => 'https://github.com/puppetlabs/puppetlabs-powershell',
   :branch => 'master'
 
+mod 'chocolatey',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-chocolatey',
+  :branch => 'master'
+
+mod 'dism',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-dism',
+  :branch => 'master'
+
 mod 'windows_utensils',
   :git    => 'https://github.com/mtlucas/windows_utensils',
+  :branch => 'master'
+
+mod 'reboot',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-reboot',
+  :branch => 'master'
+
+mod 'staging'
+  :git    => 'https://github.com/voxpupuli/puppet-staging',
   :branch => 'master'
