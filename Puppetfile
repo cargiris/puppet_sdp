@@ -32,7 +32,7 @@ mod 'registry',
 
 mod 'windowsfeature',
   :git    => 'https://github.com/voxpupuli/puppet-windowsfeature',
-  :brancg => 'master'
+  :branch => 'master'
 
 mod 'iis',
   :git    => 'https://github.com/puppetlabs/puppetlabs-iis',
