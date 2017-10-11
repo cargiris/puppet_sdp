@@ -27,7 +27,7 @@ mod 'acl',
   :branch => 'master'
 
 mod 'registry',
-  :git    => 'http://links.puppet.com/registry-module',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-registry',
   :branch => 'master'
 
 mod 'windowsfeature',
