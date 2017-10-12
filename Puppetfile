@@ -48,7 +48,7 @@ mod 'chocolatey',
 
 mod 'dism',
   :git    => 'https://github.com/puppetlabs/puppetlabs-dism',
-  :branch => 'master'
+  :tag => '1.2.0'
 
 mod 'windows_utensils',
   :git    => 'https://github.com/mtlucas/windows_utensils',
