@@ -36,11 +36,11 @@ mod 'windowsfeature',
 
 mod 'iis',
   :git    => 'https://github.com/puppetlabs/puppetlabs-iis',
-  :branch => 'master'
+  :tag => 'master'
 
 mod 'powershell',
   :git    => 'https://github.com/puppetlabs/puppetlabs-powershell',
-  :branch => 'master'
+  :branch => '4.1.1'
 
 mod 'chocolatey',
   :git    => 'https://github.com/puppetlabs/puppetlabs-chocolatey',
