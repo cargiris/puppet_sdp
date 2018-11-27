@@ -31,4 +31,4 @@ node default {
   #   class { 'my_class': }
 }
 
-lookup('classes', Array[String], 'unique').include
+lookup('classes', Array[String], 'unique', [""]).include

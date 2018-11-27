@@ -15,9 +15,49 @@ mod 'git_version',
   :branch => 'production'
 
 mod 'profile',
-  :git    => 'https://github.com/cargiris/profile_sdp.git',
+  :git    => 'https://github.com/cargiris1/profile_sdp.git',
   :branch => 'production'
 
 mod 'role',
-  :git    => 'https://github.com/cargiris/role_sdp.git',
+  :git    => 'https://github.com/cargiris1/role_sdp.git',
   :branch => 'production'
+
+mod 'acl',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-acl',
+  :branch => 'master'
+
+mod 'registry',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-registry',
+  :branch => 'master'
+
+mod 'windowsfeature',
+  :git    => 'https://github.com/voxpupuli/puppet-windowsfeature',
+  :branch => 'master'
+
+mod 'iis',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-iis',
+  :tag => '4.1.1'
+
+mod 'powershell',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-powershell',
+  :branch => 'master'
+
+mod 'chocolatey',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-chocolatey',
+  :branch => 'master'
+
+mod 'dism',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-dism',
+  :tag => '1.2.0'
+
+mod 'windows_utensils',
+  :git    => 'https://github.com/mtlucas/windows_utensils',
+  :branch => 'master'
+
+mod 'reboot',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-reboot',
+  :branch => 'master'
+
+mod 'staging',
+  :git    => 'https://github.com/voxpupuli/puppet-staging',
+  :branch => 'master'
